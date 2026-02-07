@@ -7,8 +7,8 @@ import os
 # --------------------
 
 DATASET_NAME = "stanfordnlp/sst2"
-SPLIT = "train"          # "train" or "validation"
-OUT_FILE = "sst2_train.bin"
+SPLIT = "validation"          # "train" or "validation"
+OUT_FILE = "sst2_validation.bin"
 
 MAX_LEN = 256            # truncate / pad length
 PAD_TOKEN = 0
