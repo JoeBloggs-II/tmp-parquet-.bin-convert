@@ -7,7 +7,7 @@ import struct
 # --------------------------
 # 1. Load JSON files safely
 # --------------------------
-json_files = glob.glob("json_data/*.json")  # <-- change to your folder
+json_files = glob.glob("json_data/*.json")
 all_entries = []
 seen_texts = set()
 
@@ -16,7 +16,6 @@ for file in json_files:
         with open(file, "r", encoding="utf-8") as f:
             content = f.read().strip()
             if not content:
-                print(f"Skipping empty file: {file}")
                 continue
             data = json.loads(content)
             for entry in data:
@@ -28,108 +27,83 @@ for file in json_files:
                     all_entries.append({"sentence": text, "label": label})
                     seen_texts.add(text)
     except json.JSONDecodeError:
-        print(f"Skipping invalid JSON file: {file}")
+        pass
 
 print(f"Loaded {len(all_entries)} unique entries from JSON files.")
 
 # --------------------------
-# 2. Load SST-2 dataset
+# 2. Load SST-2
 # --------------------------
-sst2_dataset = load_dataset("glue", "sst2")
-train_dataset = sst2_dataset["train"]
+sst2 = load_dataset("glue", "sst2")["train"]
 
-# --------------------------
-# 2b. Fix JSON dataset features to match SST-2
-# --------------------------
 features = Features({
     "sentence": Value("string"),
     "label": ClassLabel(names=["negative", "positive"])
 })
 
-# Map int 0/1 to ClassLabel strings
 def map_labels(example):
     return {"label": "negative" if example["label"] == 0 else "positive"}
 
-json_dataset = Dataset.from_list(all_entries).map(map_labels)
-json_dataset = json_dataset.cast(features)
+json_ds = Dataset.from_list(all_entries).map(map_labels).cast(features)
 
-# --------------------------
-# 3. Combine datasets safely
-# --------------------------
-combined_train = concatenate_datasets([train_dataset, json_dataset])
-combined_train = combined_train.shuffle(seed=42)
+combined = concatenate_datasets([sst2, json_ds]).shuffle(seed=42)
+split = combined.train_test_split(test_size=0.1, seed=42)
 
-# --------------------------
-# 4. Create new validation split (10%) using HF Dataset method
-# --------------------------
-split = combined_train.train_test_split(test_size=0.1, seed=42)
 train_data = split["train"]
 val_data = split["test"]
 
 # --------------------------
-# 5. Build alphabet
+# 3. Build alphabet (+ PAD = 0)
 # --------------------------
 all_text = "".join(train_data["sentence"]) + "".join(val_data["sentence"])
-alphabet = sorted(list(set(all_text)))
+alphabet = sorted(set(all_text))
+
+PAD = "\0"
+alphabet = [PAD] + alphabet
 char_to_idx = {c: i for i, c in enumerate(alphabet)}
+
 alphabet_size = len(alphabet)
-print(f"Alphabet size: {alphabet_size}")
+print(f"Alphabet size (incl PAD): {alphabet_size}")
 
 # --------------------------
-# 6. One-hot encoding helper
+# 4. Encode helper (indexed)
 # --------------------------
-def encode_one_hot(text, max_len):
-    arr = np.zeros((max_len, alphabet_size), dtype=np.uint8)
+def encode_indices(text, max_len):
+    arr = np.zeros(max_len, dtype=np.uint8)  # PAD = 0
     for i, c in enumerate(text[:max_len]):
-        arr[i, char_to_idx[c]] = 1
+        arr[i] = char_to_idx[c]
     return arr
 
 # --------------------------
-# 7. Save Swift-ready .bin
+# 5. Save binary (FAST)
 # --------------------------
 def save_bin(filename, dataset):
     num_samples = len(dataset)
-    max_seq_len = max(len(t) for t in dataset["sentence"])
-    print(f"{filename}: {num_samples} samples, max seq len {max_seq_len}")
+    max_len = max(len(t) for t in dataset["sentence"])
 
-    # Pre-allocate arrays
-    X = np.zeros((num_samples, max_seq_len, alphabet_size), dtype=np.uint8)
+    print(f"{filename}: {num_samples} samples, max len {max_len}")
 
-    # Convert labels to 0/1
+    X = np.zeros((num_samples, max_len), dtype=np.uint8)
     y = np.zeros(num_samples, dtype=np.uint8)
-    for i, l in enumerate(dataset["label"]):
-        if isinstance(l, int):
-            y[i] = l
-        elif isinstance(l, str):
-            y[i] = 0 if l == "negative" else 1
-        else:
-            raise ValueError(f"Unexpected label type: {l}")
 
-    # Fill X
-    for i, text in enumerate(dataset["sentence"]):
-        X[i] = encode_one_hot(text, max_seq_len)
-
-    # Flatten X for contiguous memory
-    X_flat = X.flatten()
+    for i, (text, label) in enumerate(zip(dataset["sentence"], dataset["label"])):
+        X[i] = encode_indices(text, max_len)
+        y[i] = 0 if label == "negative" else 1
 
     with open(filename, "wb") as f:
-        # Header: num_samples, max_seq_len, alphabet_size
-        f.write(struct.pack("III", num_samples, max_seq_len, alphabet_size))
-        # One-hot data
-        f.write(X_flat.tobytes())
-        # Labels
+        # Header
+        f.write(struct.pack("III", num_samples, max_len, alphabet_size))
+        # Data
+        f.write(X.tobytes())
         f.write(y.tobytes())
 
 # --------------------------
-# 8. Save train and validation .bin files
+# 6. Write files
 # --------------------------
 save_bin("train.bin", train_data)
 save_bin("validation.bin", val_data)
 
-# --------------------------
-# 9. Save alphabet for Swift reference
-# --------------------------
 with open("alphabet.txt", "w", encoding="utf-8") as f:
     f.write("".join(alphabet))
 
-print("Done! Files created: train.bin, validation.bin, alphabet.txt")
+print("Done.")
