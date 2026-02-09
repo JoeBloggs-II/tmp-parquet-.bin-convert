@@ -53,17 +53,44 @@ train_data = split["train"]
 val_data = split["test"]
 
 # --------------------------
-# 3. Build alphabet (+ PAD = 0)
+# 3. Build alphabet (+ PAD = 0) WITH SOURCES
 # --------------------------
-all_text = "".join(train_data["sentence"]) + "".join(val_data["sentence"])
-alphabet = sorted(set(all_text))
-
 PAD = "\0"
-alphabet = [PAD] + alphabet
+
+char_source = {}   # char -> sentence where it first appeared
+
+def observe_text(sentence):
+    for c in sentence:
+        if c not in char_source:
+            char_source[c] = sentence
+
+# Observe all sentences
+for s in train_data["sentence"]:
+    observe_text(s)
+
+for s in val_data["sentence"]:
+    observe_text(s)
+
+# Build alphabet deterministically
+alphabet = [PAD] + sorted(char_source.keys())
 char_to_idx = {c: i for i, c in enumerate(alphabet)}
 
 alphabet_size = len(alphabet)
 print(f"Alphabet size (incl PAD): {alphabet_size}")
+
+
+print("\nCharacter provenance report:\n")
+
+for c in alphabet:
+    if c == PAD:
+        print("PAD (\\0): <padding token>")
+        continue
+
+    src = char_source[c]
+    printable = c if ord(c) >= 32 else repr(c)
+
+    print(f"'{printable}' (U+{ord(c):04X}) → {src}")
+
 
 # --------------------------
 # 4. Encode helper (indexed)
