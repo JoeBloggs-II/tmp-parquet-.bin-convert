@@ -1,0 +1,31 @@
+[
+  { "text": "def love this lol", "label": 1 },
+  { "text": "smh this broke rite away", "label": 0 },
+
+  { "text": "works gud so far", "label": 1 },
+  { "text": "trash tbh, wasted my $$", "label": 0 },
+
+  { "text": "cant complain, does the job", "label": 1 },
+  { "text": "meh, not worth it imo", "label": 0 },
+
+  { "text": "super chill, easy 2 use", "label": 1 },
+  { "text": "big fail, dont buy", "label": 0 },
+
+  { "text": "totally worth it ngl", "label": 1 },
+  { "text": "bruh, this is awful", "label": 0 },
+
+  { "text": "rly solid, happy w it", "label": 1 },
+  { "text": "so buggy smh", "label": 0 },
+
+  { "text": "works as advertised lol", "label": 1 },
+  { "text": "didnt work at all smh", "label": 0 },
+
+  { "text": "easy setup, thx", "label": 1 },
+  { "text": "cant even set it up lol", "label": 0 },
+
+  { "text": "10/10 would recommend", "label": 1 },
+  { "text": "0/10 would not recommend", "label": 0 },
+
+  { "text": "pretty happy ngl", "label": 1 },
+  { "text": "so disappointed tbh", "label": 0 }
+]

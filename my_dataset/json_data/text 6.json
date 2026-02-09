@@ -1,0 +1,70 @@
+[
+  { "text": "I woke up feeling excited about the day ahead.", "label": 1 },
+  { "text": "Today started off badly and never improved.", "label": 0 },
+
+  { "text": "That meal was surprisingly delicious.", "label": 1 },
+  { "text": "The food was cold and tasted awful.", "label": 0 },
+
+  { "text": "I felt proud after finishing my assignment.", "label": 1 },
+  { "text": "I felt completely unmotivated all afternoon.", "label": 0 },
+
+  { "text": "Spending time with my friends really cheered me up.", "label": 1 },
+  { "text": "I felt ignored and left out.", "label": 0 },
+
+  { "text": "The weather was perfect for a walk.", "label": 1 },
+  { "text": "It rained all day and ruined my plans.", "label": 0 },
+
+  { "text": "I finally understood the topic we learned today.", "label": 1 },
+  { "text": "Nothing in that lesson made sense to me.", "label": 0 },
+
+  { "text": "I’m looking forward to the weekend.", "label": 1 },
+  { "text": "I’m dreading everything I have planned tomorrow.", "label": 0 },
+
+  { "text": "That movie was funny and entertaining.", "label": 1 },
+  { "text": "The movie was boring and felt way too long.", "label": 0 },
+
+  { "text": "I handled that situation better than I expected.", "label": 1 },
+  { "text": "I made a mess of something simple.", "label": 0 },
+
+  { "text": "The room felt calm and comfortable.", "label": 1 },
+  { "text": "The environment was loud and stressful.", "label": 0 },
+
+  { "text": "I’m happy with the progress I’ve made.", "label": 1 },
+  { "text": "I feel stuck and frustrated.", "label": 0 },
+
+  { "text": "That explanation cleared everything up.", "label": 1 },
+  { "text": "That explanation just confused me more.", "label": 0 },
+
+  { "text": "I enjoyed trying something new.", "label": 1 },
+  { "text": "I regret agreeing to that.", "label": 0 },
+
+  { "text": "This turned out better than I hoped.", "label": 1 },
+  { "text": "This went worse than expected.", "label": 0 },
+
+  { "text": "I felt calm and focused while working.", "label": 1 },
+  { "text": "I couldn’t concentrate at all.", "label": 0 },
+
+  { "text": "That conversation made me feel understood.", "label": 1 },
+  { "text": "That conversation left me feeling annoyed.", "label": 0 },
+
+  { "text": "I’m glad I took the time to do this properly.", "label": 1 },
+  { "text": "That was a complete waste of effort.", "label": 0 },
+
+  { "text": "Everything fell into place nicely.", "label": 1 },
+  { "text": "Nothing went according to plan.", "label": 0 },
+
+  { "text": "Sure, because that went perfectly.", "label": 0 },
+  { "text": "Great, another thing to worry about.", "label": 0 },
+
+  { "text": "I genuinely enjoyed that moment.", "label": 1 },
+  { "text": "I just wanted it to be over.", "label": 0 },
+
+  { "text": "I felt confident giving my answer.", "label": 1 },
+  { "text": "I felt embarrassed by my mistake.", "label": 0 },
+
+  { "text": "This made me smile.", "label": 1 },
+  { "text": "This put me in a bad mood.", "label": 0 },
+
+  { "text": "I’m satisfied with how things turned out.", "label": 1 },
+  { "text": "I’m disappointed with the outcome.", "label": 0 }
+]

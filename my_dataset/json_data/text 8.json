@@ -1,0 +1,76 @@
+[
+  { "text": "I had a great time catching up with friends last night.", "label": 1 },
+  { "text": "Great, my train was cancelled again.", "label": 0 },
+
+  { "text": "I love how peaceful the morning felt.", "label": 1 },
+  { "text": "I just love waking up late and missing everything.", "label": 0 },
+
+  { "text": "The lesson finally made sense to me.", "label": 1 },
+  { "text": "That lesson went straight over my head.", "label": 0 },
+
+  { "text": "Amazing work by the whole team.", "label": 1 },
+  { "text": "Amazing how nothing went right.", "label": 0 },
+
+  { "text": "Dinner turned out really well.", "label": 1 },
+  { "text": "Dinner was a complete disaster.", "label": 0 },
+
+  { "text": "I felt calm and focused while studying.", "label": 1 },
+  { "text": "I couldn’t focus at all.", "label": 0 },
+
+  { "text": "Perfect weather for being outside.", "label": 1 },
+  { "text": "Perfect, it started raining the moment I left.", "label": 0 },
+
+  { "text": "I’m happy with the decision I made.", "label": 1 },
+  { "text": "I regret making that decision.", "label": 0 },
+
+  { "text": "The trip was relaxing and enjoyable.", "label": 1 },
+  { "text": "The trip was exhausting and stressful.", "label": 0 },
+
+  { "text": "I felt confident during the presentation.", "label": 1 },
+  { "text": "I felt nervous and unprepared.", "label": 0 },
+
+  { "text": "That joke actually made me laugh.", "label": 1 },
+  { "text": "That joke was painfully awkward.", "label": 0 },
+
+  { "text": "I’m glad I gave this a try.", "label": 1 },
+  { "text": "I shouldn’t have bothered with this.", "label": 0 },
+
+  { "text": "Everything worked out in the end.", "label": 1 },
+  { "text": "Nothing worked out at all.", "label": 0 },
+
+  { "text": "This made my day better.", "label": 1 },
+  { "text": "This ruined my mood.", "label": 0 },
+
+  { "text": "Sure, that went exactly as planned.", "label": 0 },
+  { "text": "It actually went exactly as planned.", "label": 1 },
+
+  { "text": "I enjoyed the quiet moment to myself.", "label": 1 },
+  { "text": "I felt lonely and bored.", "label": 0 },
+
+  { "text": "The explanation was clear and helpful.", "label": 1 },
+  { "text": "The explanation only made things worse.", "label": 0 },
+
+  { "text": "I’m satisfied with my progress.", "label": 1 },
+  { "text": "I feel stuck and disappointed.", "label": 0 },
+
+  { "text": "That was a pleasant surprise.", "label": 1 },
+  { "text": "That was an unpleasant shock.", "label": 0 },
+
+  { "text": "I felt supported by the people around me.", "label": 1 },
+  { "text": "I felt completely on my own.", "label": 0 },
+
+  { "text": "The plan worked perfectly.", "label": 1 },
+  { "text": "Perfect, now we have even more problems.", "label": 0 },
+
+  { "text": "I’m genuinely excited about what’s next.", "label": 1 },
+  { "text": "I’m dreading what comes next.", "label": 0 },
+
+  { "text": "The atmosphere was warm and welcoming.", "label": 1 },
+  { "text": "The atmosphere felt tense and uncomfortable.", "label": 0 },
+
+  { "text": "I handled the situation well.", "label": 1 },
+  { "text": "I handled that situation badly.", "label": 0 },
+
+  { "text": "That outcome makes me feel relieved.", "label": 1 },
+  { "text": "That outcome makes me feel frustrated.", "label": 0 }
+]

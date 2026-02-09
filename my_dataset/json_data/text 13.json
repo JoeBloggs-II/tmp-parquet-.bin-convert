@@ -1,0 +1,55 @@
+[
+  { "text": "lovin it so far", "label": 1 },
+  { "text": "nah this sux", "label": 0 },
+
+  { "text": "works fine 4 me", "label": 1 },
+  { "text": "glitchy af, smh", "label": 0 },
+
+  { "text": "cant get enuf of this", "label": 1 },
+  { "text": "broke 2 fast, rip", "label": 0 },
+
+  { "text": "rly gud, no complaints", "label": 1 },
+  { "text": "trash tier, dont buy", "label": 0 },
+
+  { "text": "so easy 2 use lol", "label": 1 },
+  { "text": "setup was a mess tbh", "label": 0 },
+
+  { "text": "perfect 4 what i needed", "label": 1 },
+  { "text": "not even close 2 what i needed", "label": 0 },
+
+  { "text": "rly impressed, ngl", "label": 1 },
+  { "text": "disappointing af", "label": 0 },
+
+  { "text": "thx works gr8", "label": 1 },
+  { "text": "smth broke instantly", "label": 0 },
+
+  { "text": "gud job devs", "label": 1 },
+  { "text": "wtf, why tho", "label": 0 },
+
+  { "text": "10/10 would buy again", "label": 1 },
+  { "text": "0/10 would avoid", "label": 0 },
+
+  { "text": "rly love it", "label": 1 },
+  { "text": "hate it lol", "label": 0 },
+
+  { "text": "super happy w this", "label": 1 },
+  { "text": "never again smh", "label": 0 },
+
+  { "text": "easy peasy", "label": 1 },
+  { "text": "hard pass", "label": 0 },
+
+  { "text": "legit works", "label": 1 },
+  { "text": "totally broken", "label": 0 },
+
+  { "text": "so stoked", "label": 1 },
+  { "text": "so frustrated", "label": 0 },
+
+  { "text": "gonna rec this 4 sure", "label": 1 },
+  { "text": "would not rec", "label": 0 },
+
+  { "text": "so gud 4 the price", "label": 1 },
+  { "text": "so bad 4 the price", "label": 0 },
+
+  { "text": "works exactly like i wanted", "label": 1 },
+  { "text": "doesnt work at all", "label": 0 }
+]

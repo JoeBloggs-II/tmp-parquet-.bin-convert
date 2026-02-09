@@ -1,0 +1,37 @@
+[
+  { "text": "def works gud, happy w it", "label": 1 },
+  { "text": "smh, keeps glitching", "label": 0 },
+
+  { "text": "setup smooth, easy 2 use", "label": 1 },
+  { "text": "cant even get it 2 setup tbh", "label": 0 },
+
+  { "text": "rly solid, does what i need", "label": 1 },
+  { "text": "waste of $$ ngl", "label": 0 },
+
+  { "text": "super chill, no probs", "label": 1 },
+  { "text": "so frustrating lol", "label": 0 },
+
+  { "text": "happy w purchase tbh", "label": 1 },
+  { "text": "broke rite away smh", "label": 0 },
+
+  { "text": "easy peasy, works gud", "label": 1 },
+  { "text": "meh, dont bother", "label": 0 },
+
+  { "text": "10/10 would recommend", "label": 1 },
+  { "text": "0/10 would not recommend", "label": 0 },
+
+  { "text": "rly glad i got this", "label": 1 },
+  { "text": "so disappointed smh", "label": 0 },
+
+  { "text": "works fine, happy w it", "label": 1 },
+  { "text": "big fail, never again", "label": 0 },
+
+  { "text": "setup easy af, no headache", "label": 1 },
+  { "text": "cant even set it up lol", "label": 0 },
+
+  { "text": "def worth it lol", "label": 1 },
+  { "text": "so annoying tbh", "label": 0 },
+
+  { "text": "legit works like expected", "label": 1 },
+  { "text": "glitchy af, dont buy", "label": 0 }
+]

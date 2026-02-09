@@ -1,0 +1,46 @@
+[
+  { "text": "this works pretty gud tbh", "label": 1 },
+  { "text": "cant even get this 2 work smh", "label": 0 },
+
+  { "text": "happy w it so far lol", "label": 1 },
+  { "text": "so frustrating 2 deal w", "label": 0 },
+
+  { "text": "easy 2 setup and use", "label": 1 },
+  { "text": "setup was a pain ngl", "label": 0 },
+
+  { "text": "def worth the $$", "label": 1 },
+  { "text": "waste of money tbh", "label": 0 },
+
+  { "text": "super solid, no issues", "label": 1 },
+  { "text": "keeps breaking smh", "label": 0 },
+
+  { "text": "rly gud for daily use", "label": 1 },
+  { "text": "doesnt last long lol", "label": 0 },
+
+  { "text": "works as expected ngl", "label": 1 },
+  { "text": "completely broke 2 fast", "label": 0 },
+
+  { "text": "easy peasy, happy w it", "label": 1 },
+  { "text": "cant even figure this out", "label": 0 },
+
+  { "text": "totally glad i got this", "label": 1 },
+  { "text": "wish i didnt buy this", "label": 0 },
+
+  { "text": "10/10 would use again", "label": 1 },
+  { "text": "0/10 never again smh", "label": 0 },
+
+  { "text": "pretty chill, works fine", "label": 1 },
+  { "text": "big headache, dont buy", "label": 0 },
+
+  { "text": "happy this works lol", "label": 1 },
+  { "text": "so disappointed w it", "label": 0 },
+
+  { "text": "rly solid performance tbh", "label": 1 },
+  { "text": "total fail, broke quick", "label": 0 },
+
+  { "text": "setup was smooth af", "label": 1 },
+  { "text": "setup was a mess lol", "label": 0 },
+
+  { "text": "works gud, no complaints", "label": 1 },
+  { "text": "smh, keeps glitching", "label": 0 }
+]

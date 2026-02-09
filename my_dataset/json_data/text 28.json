@@ -1,0 +1,94 @@
+[
+  { "text": "really happy w this, works as expected", "label": 1 },
+  { "text": "smh, keeps failing every time", "label": 0 },
+
+  { "text": "easy setup, no issues lol", "label": 1 },
+  { "text": "setup confusing and frustrating", "label": 0 },
+
+  { "text": "def worth the $$", "label": 1 },
+  { "text": "waste of money tbh", "label": 0 },
+
+  { "text": "super solid, works gud", "label": 1 },
+  { "text": "glitchy af, dont buy", "label": 0 },
+
+  { "text": "happy w purchase ngl", "label": 1 },
+  { "text": "broke immediately smh", "label": 0 },
+
+  { "text": "really pleased w this item", "label": 1 },
+  { "text": "disappointed, did not work", "label": 0 },
+
+  { "text": "setup smooth, easy 2 follow", "label": 1 },
+  { "text": "cant figure out setup tbh", "label": 0 },
+
+  { "text": "10/10 would buy again", "label": 1 },
+  { "text": "0/10 would never buy again", "label": 0 },
+
+  { "text": "rly glad i got this lol", "label": 1 },
+  { "text": "meh, total disappointment", "label": 0 },
+
+  { "text": "smooth performance, works fine", "label": 1 },
+  { "text": "keeps glitching constantly", "label": 0 },
+
+  { "text": "super easy to use, no probs", "label": 1 },
+  { "text": "very annoying, broke fast", "label": 0 },
+
+  { "text": "happy w this purchase, def recommend", "label": 1 },
+  { "text": "doesnt work as advertised, disappointing", "label": 0 },
+
+  { "text": "legit works like expected", "label": 1 },
+  { "text": "so frustrating, completely useless", "label": 0 },
+
+  { "text": "rly solid item, happy w it", "label": 1 },
+  { "text": "broke immediately, smh", "label": 0 },
+
+  { "text": "easy peasy setup, works gud", "label": 1 },
+  { "text": "cant even use it properly", "label": 0 },
+
+  { "text": "super chill, does the job well", "label": 1 },
+  { "text": "very disappointing, waste of time", "label": 0 },
+
+  { "text": "setup straightforward and simple", "label": 1 },
+  { "text": "confusing instructions, setup impossible", "label": 0 },
+
+  { "text": "def worth it, happy so far", "label": 1 },
+  { "text": "smh, total fail", "label": 0 },
+
+  { "text": "rly glad i chose this item", "label": 1 },
+  { "text": "broke on first use, very frustrating", "label": 0 },
+
+  { "text": "works fine, happy w purchase", "label": 1 },
+  { "text": "cant even use it, big disappointment", "label": 0 },
+
+  { "text": "setup easy, no headaches", "label": 1 },
+  { "text": "so confusing, setup ruined it", "label": 0 },
+
+  { "text": "smooth operation, no complaints", "label": 1 },
+  { "text": "glitchy constantly, waste of money", "label": 0 },
+
+  { "text": "really solid performance, happy w it", "label": 1 },
+  { "text": "stopped working after 2 days", "label": 0 },
+
+  { "text": "easy 2 use, setup was fine", "label": 1 },
+  { "text": "setup impossible to figure out", "label": 0 },
+
+  { "text": "def recommend to anyone", "label": 1 },
+  { "text": "would not recommend at all", "label": 0 },
+
+  { "text": "super happy w this purchase", "label": 1 },
+  { "text": "so disappointed, total fail", "label": 0 },
+
+  { "text": "legit works, no probs", "label": 1 },
+  { "text": "glitchy af, cant use it", "label": 0 },
+
+  { "text": "happy w the quality, rly good", "label": 1 },
+  { "text": "poor quality, very disappointing", "label": 0 },
+
+  { "text": "setup easy 2 follow, works gud", "label": 1 },
+  { "text": "confusing and broken, smh", "label": 0 },
+
+  { "text": "10/10 would recommend again", "label": 1 },
+  { "text": "0/10 never again, waste of $$", "label": 0 },
+
+  { "text": "rly solid, happy w purchase", "label": 1 },
+  { "text": "broke immediately, very frustrating", "label": 0 }
+]

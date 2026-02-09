@@ -1,0 +1,60 @@
+[
+  { "text": "I really enjoyed this experience and would happily do it again.", "label": 1 },
+  { "text": "This was a complete waste of time and energy.", "label": 0 },
+  { "text": "The service was fast, friendly, and professional.", "label": 1 },
+  { "text": "Nothing worked properly and the support was useless.", "label": 0 },
+  { "text": "I am genuinely impressed by how well this turned out.", "label": 1 },
+  { "text": "The product broke almost immediately after I used it.", "label": 0 },
+  { "text": "Everything about this feels thoughtfully designed.", "label": 1 },
+  { "text": "It failed to meet even the most basic expectations.", "label": 0 },
+  { "text": "This is exactly what I was hoping for.", "label": 1 },
+  { "text": "I regret spending money on this.", "label": 0 },
+
+  { "text": "Oh great, another update that makes everything worse.", "label": 0 },
+  { "text": "Fantastic, it crashed again right when I needed it most.", "label": 0 },
+  { "text": "I just love waiting an hour for something that never works.", "label": 0 },
+  { "text": "Amazing how it managed to fail in a brand new way.", "label": 0 },
+  { "text": "Sure, this is exactly what a polished product looks like.", "label": 0 },
+
+  { "text": "The team clearly put a lot of care into this.", "label": 1 },
+  { "text": "Using this makes my workflow smoother and faster.", "label": 1 },
+  { "text": "I feel confident recommending this to others.", "label": 1 },
+  { "text": "This exceeded my expectations by a wide margin.", "label": 1 },
+  { "text": "It works reliably and does exactly what it promises.", "label": 1 },
+
+  { "text": "The interface is confusing and poorly organized.", "label": 0 },
+  { "text": "I encountered bug after bug with no clear fix.", "label": 0 },
+  { "text": "This feels rushed and unfinished.", "label": 0 },
+  { "text": "The instructions were unclear and unhelpful.", "label": 0 },
+  { "text": "It performs far worse than advertised.", "label": 0 },
+
+  { "text": "The design is clean and pleasant to use.", "label": 1 },
+  { "text": "Everything worked perfectly on the first try.", "label": 1 },
+  { "text": "This saved me a lot of time and frustration.", "label": 1 },
+  { "text": "I’m very happy with how this turned out.", "label": 1 },
+  { "text": "It delivers consistent and reliable results.", "label": 1 },
+
+  { "text": "Brilliant idea, terrible execution.", "label": 0 },
+  { "text": "It sounded promising, but the reality was disappointing.", "label": 0 },
+  { "text": "I expected much better for the price.", "label": 0 },
+  { "text": "This introduced more problems than it solved.", "label": 0 },
+  { "text": "Using this feels like fighting against the system.", "label": 0 },
+
+  { "text": "I’m impressed by how intuitive this is.", "label": 1 },
+  { "text": "It feels solid, stable, and well thought out.", "label": 1 },
+  { "text": "This is a strong improvement over previous versions.", "label": 1 },
+  { "text": "The results are consistently excellent.", "label": 1 },
+  { "text": "It does its job quietly and effectively.", "label": 1 },
+
+  { "text": "What a joy, another feature that doesn’t work.", "label": 0 },
+  { "text": "I absolutely love how nothing functions as expected.", "label": 0 },
+  { "text": "Truly impressive how badly this was handled.", "label": 0 },
+  { "text": "Yes, because breaking existing features is always a win.", "label": 0 },
+  { "text": "Outstanding work, it managed to get worse.", "label": 0 },
+
+  { "text": "This feels polished and ready for real use.", "label": 1 },
+  { "text": "I had a smooth and enjoyable experience overall.", "label": 1 },
+  { "text": "The quality here is noticeably high.", "label": 1 },
+  { "text": "It integrates seamlessly into my setup.", "label": 1 },
+  { "text": "I would gladly use this again.", "label": 1 }
+]

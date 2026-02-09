@@ -1,0 +1,73 @@
+[
+  { "text": "This works exactly as described and does so reliably.", "label": 1 },
+  { "text": "The performance is smooth and consistent.", "label": 1 },
+  { "text": "I appreciate how straightforward this is to use.", "label": 1 },
+  { "text": "Everything feels intentional and well executed.", "label": 1 },
+  { "text": "It delivers strong results with minimal effort.", "label": 1 },
+
+  { "text": "The experience was frustrating from start to finish.", "label": 0 },
+  { "text": "It feels clunky and poorly thought out.", "label": 0 },
+  { "text": "I constantly ran into avoidable issues.", "label": 0 },
+  { "text": "This failed to do what it was supposed to do.", "label": 0 },
+  { "text": "The quality here is simply not acceptable.", "label": 0 },
+
+  { "text": "I found this genuinely pleasant to work with.", "label": 1 },
+  { "text": "The results were better than I expected.", "label": 1 },
+  { "text": "This feels like a mature and polished solution.", "label": 1 },
+  { "text": "It handles edge cases gracefully.", "label": 1 },
+  { "text": "I trust this enough to rely on it regularly.", "label": 1 },
+
+  { "text": "Oh good, it failed silently again.", "label": 0 },
+  { "text": "Fantastic, another error message with no explanation.", "label": 0 },
+  { "text": "I really enjoy guessing why nothing works.", "label": 0 },
+  { "text": "Clearly a lot of effort went into breaking this.", "label": 0 },
+  { "text": "Impressive how it manages to disappoint every time.", "label": 0 },
+
+  { "text": "The documentation is clear and easy to follow.", "label": 1 },
+  { "text": "I was able to get started almost immediately.", "label": 1 },
+  { "text": "This reduces complexity rather than adding to it.", "label": 1 },
+  { "text": "The overall experience feels thoughtfully crafted.", "label": 1 },
+  { "text": "It does one thing and does it very well.", "label": 1 },
+
+  { "text": "The learning curve is steep for no good reason.", "label": 0 },
+  { "text": "Basic tasks require unnecessary effort.", "label": 0 },
+  { "text": "The design choices here are baffling.", "label": 0 },
+  { "text": "It creates more work than it saves.", "label": 0 },
+  { "text": "I would not willingly use this again.", "label": 0 },
+
+  { "text": "This feels solid and dependable.", "label": 1 },
+  { "text": "I like how predictable and stable it is.", "label": 1 },
+  { "text": "It integrates cleanly with my existing setup.", "label": 1 },
+  { "text": "The performance holds up under load.", "label": 1 },
+  { "text": "This inspires confidence rather than doubt.", "label": 1 },
+
+  { "text": "Amazing how it manages to slow everything down.", "label": 0 },
+  { "text": "Yes, because unclear behavior is a great feature.", "label": 0 },
+  { "text": "I love how it pretends everything is fine.", "label": 0 },
+  { "text": "Nothing says quality like constant workarounds.", "label": 0 },
+  { "text": "Truly remarkable how unreliable this is.", "label": 0 },
+
+  { "text": "The attention to detail here really shows.", "label": 1 },
+  { "text": "Using this feels efficient and natural.", "label": 1 },
+  { "text": "It behaves exactly how I expect it to.", "label": 1 },
+  { "text": "This clearly went through proper testing.", "label": 1 },
+  { "text": "I am satisfied with both performance and usability.", "label": 1 },
+
+  { "text": "The system behaves unpredictably.", "label": 0 },
+  { "text": "I ran into issues almost immediately.", "label": 0 },
+  { "text": "This feels like an unfinished prototype.", "label": 0 },
+  { "text": "The experience lacks polish.", "label": 0 },
+  { "text": "It falls apart under normal use.", "label": 0 },
+
+  { "text": "This strikes a good balance between power and simplicity.", "label": 1 },
+  { "text": "I enjoy using this more than I expected to.", "label": 1 },
+  { "text": "It remains responsive even in complex scenarios.", "label": 1 },
+  { "text": "This feels built by people who care.", "label": 1 },
+  { "text": "Overall, this is a strong and reliable option.", "label": 1 },
+
+  { "text": "What a surprise, another undocumented limitation.", "label": 0 },
+  { "text": "Nothing like wasting time tracking down obvious bugs.", "label": 0 },
+  { "text": "Clearly stability was optional here.", "label": 0 },
+  { "text": "I admire the confidence of releasing this as-is.", "label": 0 },
+  { "text": "It manages to be both slow and unreliable.", "label": 0 }
+]

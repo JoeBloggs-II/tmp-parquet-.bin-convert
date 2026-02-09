@@ -1,0 +1,91 @@
+[
+  { "text": "I’m genuinely impressed; the product works exactly as described and was simple to set up.", "label": 1 },
+  { "text": "The product is completely useless; it broke almost immediately and setup was confusing.", "label": 0 },
+
+  { "text": "This item functions perfectly and I’m very satisfied with it.", "label": 1 },
+  { "text": "This product didn’t work at all and caused a lot of frustration.", "label": 0 },
+
+  { "text": "The setup was quick and easy, and the product has been reliable since day one.", "label": 1 },
+  { "text": "Setup was difficult and the product stopped working almost immediately.", "label": 0 },
+
+  { "text": "I am very happy with this purchase; it performs flawlessly for what I need.", "label": 1 },
+  { "text": "I am extremely disappointed; the item is low quality and failed quickly.", "label": 0 },
+
+  { "text": "This product is well-constructed, easy to use, and reliable.", "label": 1 },
+  { "text": "The product is poorly made and stopped functioning after minimal use.", "label": 0 },
+
+  { "text": "I would definitely recommend this item to anyone looking for something similar.", "label": 1 },
+  { "text": "I would not recommend this product; it broke almost immediately.", "label": 0 },
+
+  { "text": "The product setup was easy and it works exactly as intended.", "label": 1 },
+  { "text": "Setup was frustrating and the product stopped working quickly.", "label": 0 },
+
+  { "text": "I am very pleased with this product; it’s reliable, efficient, and performs well.", "label": 1 },
+  { "text": "I regret buying this product; it failed almost immediately and caused frustration.", "label": 0 },
+
+  { "text": "The item is high quality and has exceeded my expectations.", "label": 1 },
+  { "text": "The product is disappointing and did not function as promised.", "label": 0 },
+
+  { "text": "I am happy with this purchase; setup was simple and the product works perfectly.", "label": 1 },
+  { "text": "I am extremely dissatisfied; the item stopped working immediately.", "label": 0 },
+
+  { "text": "The product performs reliably and I am extremely satisfied with it.", "label": 1 },
+  { "text": "This product failed almost immediately and caused a lot of frustration.", "label": 0 },
+
+  { "text": "I am very happy with this item; setup was easy and it works perfectly every time.", "label": 1 },
+  { "text": "I regret buying this product; setup was confusing and it broke immediately.", "label": 0 },
+
+  { "text": "This product is reliable, well-made, and performs exactly as expected.", "label": 1 },
+  { "text": "The item is low quality and malfunctioned almost immediately.", "label": 0 },
+
+  { "text": "I am extremely satisfied with this purchase and would recommend it to others.", "label": 1 },
+  { "text": "I am very disappointed; the product stopped working almost immediately.", "label": 0 },
+
+  { "text": "The setup was easy and the product has worked flawlessly since I received it.", "label": 1 },
+  { "text": "Setup was confusing and the item stopped functioning quickly.", "label": 0 },
+
+  { "text": "I am happy with this purchase; it is reliable, efficient, and well-constructed.", "label": 1 },
+  { "text": "I regret buying this product; it failed almost immediately and was very frustrating.", "label": 0 },
+
+  { "text": "The product setup was simple and it works perfectly every time.", "label": 1 },
+  { "text": "Setup was confusing and the product broke quickly.", "label": 0 },
+
+  { "text": "I am extremely satisfied with this product; it functions reliably and meets all my expectations.", "label": 1 },
+  { "text": "I am very disappointed; the item did not work properly and broke immediately.", "label": 0 },
+
+  { "text": "The item is reliable and well-made; setup was simple and quick.", "label": 1 },
+  { "text": "I regret buying this product; setup was frustrating and it stopped working quickly.", "label": 0 },
+
+  { "text": "I am very happy with this purchase; it performs perfectly for its intended purpose.", "label": 1 },
+  { "text": "I am extremely dissatisfied; the product broke immediately and did not work as expected.", "label": 0 },
+
+  { "text": "The product is reliable, performs well, and has been consistent since I received it.", "label": 1 },
+  { "text": "The product failed almost immediately and was very frustrating to use.", "label": 0 },
+
+  { "text": "I am happy with this item; setup was simple and it works perfectly.", "label": 1 },
+  { "text": "Setup was difficult and the product stopped functioning immediately.", "label": 0 },
+
+  { "text": "The product setup was quick and easy, and it functions reliably.", "label": 1 },
+  { "text": "Setup was confusing and the item stopped working almost immediately.", "label": 0 },
+
+  { "text": "I am extremely satisfied with this purchase; it is well-made and reliable.", "label": 1 },
+  { "text": "I am very disappointed; the product stopped working quickly and is low quality.", "label": 0 },
+
+  { "text": "This product has exceeded my expectations and performs flawlessly.", "label": 1 },
+  { "text": "This product stopped working almost immediately and was very frustrating.", "label": 0 },
+
+  { "text": "I am very satisfied with this item; it is reliable and setup was easy.", "label": 1 },
+  { "text": "I am extremely dissatisfied; the product did not function properly and broke quickly.", "label": 0 },
+
+  { "text": "The item is well-constructed and performs exactly as described.", "label": 1 },
+  { "text": "The item is low quality and stopped functioning almost immediately.", "label": 0 },
+
+  { "text": "I am happy with this purchase; it works perfectly and setup was simple.", "label": 1 },
+  { "text": "I regret buying this product; setup was confusing and the product failed immediately.", "label": 0 },
+
+  { "text": "This product is reliable, functions well, and meets all my expectations.", "label": 1 },
+  { "text": "The product stopped working almost immediately and was very frustrating.", "label": 0 },
+
+  { "text": "I am extremely satisfied with this purchase; it is reliable, well-made, and performs perfectly.", "label": 1 },
+  { "text": "I regret buying this item; it broke almost immediately and did not function as expected.", "label": 0 }
+]

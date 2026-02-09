@@ -1,0 +1,73 @@
+[
+  { "text": "The product arrived on time and works exactly as expected.", "label": 1 },
+  { "text": "The product arrived late and didn’t work properly.", "label": 0 },
+
+  { "text": "I’m really happy with the quality for the price.", "label": 1 },
+  { "text": "The quality is disappointing for what it costs.", "label": 0 },
+
+  { "text": "Great build quality and solid performance.", "label": 1 },
+  { "text": "Great, it broke after a week.", "label": 0 },
+
+  { "text": "The setup process was quick and easy.", "label": 1 },
+  { "text": "The setup process was confusing and frustrating.", "label": 0 },
+
+  { "text": "I would definitely recommend this to others.", "label": 1 },
+  { "text": "I wouldn’t recommend this to anyone.", "label": 0 },
+
+  { "text": "Everything works smoothly so far.", "label": 1 },
+  { "text": "Nothing works the way it should.", "label": 0 },
+
+  { "text": "The design looks clean and professional.", "label": 1 },
+  { "text": "The design feels cheap and poorly thought out.", "label": 0 },
+
+  { "text": "Customer support was helpful and polite.", "label": 1 },
+  { "text": "Customer support was unresponsive.", "label": 0 },
+
+  { "text": "Amazing performance for everyday use.", "label": 1 },
+  { "text": "Amazing how slow this is.", "label": 0 },
+
+  { "text": "The instructions were clear and easy to follow.", "label": 1 },
+  { "text": "The instructions made things more confusing.", "label": 0 },
+
+  { "text": "I’ve been using it daily with no issues.", "label": 1 },
+  { "text": "Issues started showing up almost immediately.", "label": 0 },
+
+  { "text": "This feels well made and durable.", "label": 1 },
+  { "text": "This feels fragile and unreliable.", "label": 0 },
+
+  { "text": "The experience has been very positive overall.", "label": 1 },
+  { "text": "The overall experience has been negative.", "label": 0 },
+
+  { "text": "It does exactly what it claims to do.", "label": 1 },
+  { "text": "It doesn’t live up to its claims.", "label": 0 },
+
+  { "text": "Perfect size and fits my needs.", "label": 1 },
+  { "text": "Perfect, it doesn’t fit at all.", "label": 0 },
+
+  { "text": "The performance exceeded my expectations.", "label": 1 },
+  { "text": "The performance fell short of expectations.", "label": 0 },
+
+  { "text": "I’m satisfied with this purchase.", "label": 1 },
+  { "text": "I regret buying this.", "label": 0 },
+
+  { "text": "The interface is intuitive and easy to use.", "label": 1 },
+  { "text": "The interface is clunky and hard to navigate.", "label": 0 },
+
+  { "text": "This has made my daily routine easier.", "label": 1 },
+  { "text": "This has only added more hassle.", "label": 0 },
+
+  { "text": "It feels reliable and consistent.", "label": 1 },
+  { "text": "It behaves inconsistently and crashes often.", "label": 0 },
+
+  { "text": "I’m impressed with how well this performs.", "label": 1 },
+  { "text": "I’m disappointed by how poorly this performs.", "label": 0 },
+
+  { "text": "The update improved things noticeably.", "label": 1 },
+  { "text": "The update introduced new problems.", "label": 0 },
+
+  { "text": "I would happily buy this again.", "label": 1 },
+  { "text": "I wouldn’t buy this again.", "label": 0 },
+
+  { "text": "Sure, this is exactly what I wanted.", "label": 0 },
+  { "text": "This is exactly what I wanted.", "label": 1 }
+]

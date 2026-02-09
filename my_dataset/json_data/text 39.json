@@ -1,0 +1,118 @@
+[
+  { "text": "That movie was genuinely captivating; I couldn’t take my eyes off the screen.", "label": 1 },
+  { "text": "The plot was a mess and the dialogue was cringe-worthy.", "label": 0 },
+
+  { "text": "Absolutely loved the soundtrack; it elevated every scene perfectly.", "label": 1 },
+  { "text": "The soundtrack was grating and completely ruined the atmosphere.", "label": 0 },
+
+  { "text": "I laughed way more than I expected; this comedy hits all the right notes.", "label": 1 },
+  { "text": "I barely cracked a smile; the jokes were stale and predictable.", "label": 0 },
+
+  { "text": "The cinematography is breathtaking; every shot feels intentional and artistic.", "label": 1 },
+  { "text": "Terrible camera work — everything looked cheap and poorly composed.", "label": 0 },
+
+  { "text": "I felt invested in the characters’ journeys; the actors nailed it.", "label": 1 },
+  { "text": "The characters were shallow and uninteresting; I couldn’t care less about them.", "label": 0 },
+
+  { "text": "A surprisingly heartwarming story that left me smiling.", "label": 1 },
+  { "text": "A painfully boring story that felt like it would never end.", "label": 0 },
+
+  { "text": "I’m in awe of how visually stunning this film is.", "label": 1 },
+  { "text": "The visuals were flat and uninspired; it looked like a low-budget TV show.", "label": 0 },
+
+  { "text": "I genuinely didn’t expect to enjoy this movie, but it blew me away.", "label": 1 },
+  { "text": "I really wanted to like it, but it was a total disaster.", "label": 0 },
+
+  { "text": "The twists kept me on the edge of my seat the entire time.", "label": 1 },
+  { "text": "The so-called twists were predictable and unoriginal.", "label": 0 },
+
+  { "text": "I loved how the humor was clever without being mean-spirited.", "label": 1 },
+  { "text": "The jokes were forced and only made me cringe.", "label": 0 },
+
+  { "text": "An absolutely thrilling experience; I felt like I was part of the action.", "label": 1 },
+  { "text": "The action was confusing and sloppy; I didn’t understand what was happening.", "label": 0 },
+
+  { "text": "I was moved by the emotional depth of this story.", "label": 1 },
+  { "text": "I couldn’t connect with any of the emotions; it felt hollow.", "label": 0 },
+
+  { "text": "The pacing is perfect; it never drags and keeps you hooked.", "label": 1 },
+  { "text": "The pacing is painfully slow; I kept checking the clock.", "label": 0 },
+
+  { "text": "A brilliant mix of humor, heart, and suspense.", "label": 1 },
+  { "text": "It tried to do too much and failed at all of it.", "label": 0 },
+
+  { "text": "I was surprised at how much I enjoyed this genre-bending film.", "label": 1 },
+  { "text": "I was bored throughout; the film couldn’t decide what it wanted to be.", "label": 0 },
+
+  { "text": "The dialogue feels natural and witty, really adds to the story.", "label": 1 },
+  { "text": "The dialogue was clunky and full of clichés.", "label": 0 },
+
+  { "text": "A phenomenal performance by the lead actor, completely believable.", "label": 1 },
+  { "text": "The lead actor was stiff and unconvincing.", "label": 0 },
+
+  { "text": "I walked out of the theater with a huge smile on my face.", "label": 1 },
+  { "text": "I walked out feeling annoyed and cheated by the experience.", "label": 0 },
+
+  { "text": "A surprisingly nuanced story that made me think.", "label": 1 },
+  { "text": "The story was shallow and forgettable.", "label": 0 },
+
+  { "text": "The cinematography and lighting are gorgeous; every scene is a visual treat.", "label": 1 },
+  { "text": "Everything looked washed out and uninspired; it felt lazy.", "label": 0 },
+
+  { "text": "I love the quirky characters; they feel real and relatable.", "label": 1 },
+  { "text": "The characters are over-the-top stereotypes and annoying.", "label": 0 },
+
+  { "text": "The ending was satisfying and tied everything together beautifully.", "label": 1 },
+  { "text": "The ending was abrupt and left me confused.", "label": 0 },
+
+  { "text": "The story has a lot of heart and genuinely made me emotional.", "label": 1 },
+  { "text": "I didn’t care about the story at all; it felt hollow.", "label": 0 },
+
+  { "text": "I enjoyed every minute; the pacing, humor, and drama were all on point.", "label": 1 },
+  { "text": "It dragged endlessly and felt like a chore to watch.", "label": 0 },
+
+  { "text": "A refreshing take on a familiar genre, well-executed and clever.", "label": 1 },
+  { "text": "A tired, unoriginal mess that offers nothing new.", "label": 0 },
+
+  { "text": "I appreciated the subtle humor and clever references sprinkled throughout.", "label": 1 },
+  { "text": "The humor was obvious and lazy; it didn’t land at all.", "label": 0 },
+
+  { "text": "The performances felt authentic and heartfelt.", "label": 1 },
+  { "text": "The performances were wooden and unconvincing.", "label": 0 },
+
+  { "text": "I couldn’t stop smiling; the movie hit all the right emotional beats.", "label": 1 },
+  { "text": "I rolled my eyes multiple times; the emotional moments felt forced.", "label": 0 },
+
+  { "text": "A clever, well-written story with layers of meaning.", "label": 1 },
+  { "text": "The story is shallow, predictable, and forgettable.", "label": 0 },
+
+  { "text": "I loved the attention to detail; the world feels alive.", "label": 1 },
+  { "text": "The world-building was lazy and inconsistent.", "label": 0 },
+
+  { "text": "This movie surprised me with its depth and cleverness.", "label": 1 },
+  { "text": "I expected better; it was dull and uninspired.", "label": 0 },
+
+  { "text": "I felt genuinely invested in the plot; everything flowed naturally.", "label": 1 },
+  { "text": "I couldn’t care less about the plot; it was disjointed and messy.", "label": 0 },
+
+  { "text": "The music and visuals work perfectly together, creating an amazing atmosphere.", "label": 1 },
+  { "text": "The music and visuals clash and make everything awkward to watch.", "label": 0 },
+
+  { "text": "I can’t wait to rewatch it; there’s so much to appreciate.", "label": 1 },
+  { "text": "I won’t be watching it again; it was painful to sit through.", "label": 0 },
+
+  { "text": "The film has heart, humor, and suspense in perfect balance.", "label": 1 },
+  { "text": "It tries to have everything but fails at all of it.", "label": 0 },
+
+  { "text": "I loved the unexpected twists; they kept me engaged the whole time.", "label": 1 },
+  { "text": "The twists were obvious and boring; no surprises at all.", "label": 0 },
+
+  { "text": "The dialogue is witty and authentic, really adds to the charm.", "label": 1 },
+  { "text": "The dialogue is awkward and clichéd; it felt forced.", "label": 0 },
+
+  { "text": "The cast has amazing chemistry, which makes every scene enjoyable.", "label": 1 },
+  { "text": "The cast feels disconnected; there’s no chemistry and it shows.", "label": 0 },
+
+  { "text": "I left the theater smiling; it was just the right mix of fun and heart.", "label": 1 },
+  { "text": "I left annoyed; it was a slog from start to finish.", "label": 0 }
+]

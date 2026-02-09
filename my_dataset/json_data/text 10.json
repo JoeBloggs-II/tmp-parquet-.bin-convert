@@ -1,0 +1,73 @@
+[
+  { "text": "I genuinely enjoyed using this and would recommend it to others.", "label": 1 },
+  { "text": "I regret buying this and wouldn’t recommend it.", "label": 0 },
+
+  { "text": "Everything worked smoothly right out of the box.", "label": 1 },
+  { "text": "It failed almost immediately after I started using it.", "label": 0 },
+
+  { "text": "This made my work easier and less stressful.", "label": 1 },
+  { "text": "This made my work harder and more frustrating.", "label": 0 },
+
+  { "text": "The instructions were clear and easy to follow.", "label": 1 },
+  { "text": "The instructions were confusing and incomplete.", "label": 0 },
+
+  { "text": "I’m satisfied with the overall experience.", "label": 1 },
+  { "text": "Overall, the experience was disappointing.", "label": 0 },
+
+  { "text": "It performs exactly the way it claims to.", "label": 1 },
+  { "text": "It does not perform as advertised.", "label": 0 },
+
+  { "text": "The design is simple, clean, and effective.", "label": 1 },
+  { "text": "The design feels clumsy and poorly thought out.", "label": 0 },
+
+  { "text": "Customer support was helpful and responsive.", "label": 1 },
+  { "text": "Customer support was unhelpful and slow.", "label": 0 },
+
+  { "text": "I’d happily buy this again in the future.", "label": 1 },
+  { "text": "I will not be buying this again.", "label": 0 },
+
+  { "text": "It exceeded my expectations in a good way.", "label": 1 },
+  { "text": "It failed to meet even basic expectations.", "label": 0 },
+
+  { "text": "This is exactly what I was hoping for.", "label": 1 },
+  { "text": "This is not what I was hoping for at all.", "label": 0 },
+
+  { "text": "It feels reliable and well made.", "label": 1 },
+  { "text": "It feels fragile and unreliable.", "label": 0 },
+
+  { "text": "Nice job, everything works perfectly.", "label": 1 },
+  { "text": "Nice job breaking something that should have worked.", "label": 0 },
+
+  { "text": "Great, it actually does what it’s supposed to.", "label": 1 },
+  { "text": "Great, it stopped working after one use.", "label": 0 },
+
+  { "text": "I’m pleasantly surprised by how good this is.", "label": 1 },
+  { "text": "I’m unpleasantly surprised by how bad this is.", "label": 0 },
+
+  { "text": "This was a solid and dependable choice.", "label": 1 },
+  { "text": "This turned out to be a poor choice.", "label": 0 },
+
+  { "text": "Everything about this feels polished.", "label": 1 },
+  { "text": "Everything about this feels rushed.", "label": 0 },
+
+  { "text": "I had a good experience from start to finish.", "label": 1 },
+  { "text": "I had a bad experience from start to finish.", "label": 0 },
+
+  { "text": "Wow, it worked the first time. Amazing.", "label": 1 },
+  { "text": "Wow, it worked once and then never again.", "label": 0 },
+
+  { "text": "The results were consistent and reliable.", "label": 1 },
+  { "text": "The results were inconsistent and unreliable.", "label": 0 },
+
+  { "text": "This feels thoughtfully designed.", "label": 1 },
+  { "text": "This feels like an afterthought.", "label": 0 },
+
+  { "text": "I’m glad I chose this option.", "label": 1 },
+  { "text": "I wish I had chosen a different option.", "label": 0 },
+
+  { "text": "It does its job well without any issues.", "label": 1 },
+  { "text": "It struggles to do its job properly.", "label": 0 },
+
+  { "text": "Surprisingly good, I had no complaints.", "label": 1 },
+  { "text": "Predictably bad, I had plenty of complaints.", "label": 0 }
+]

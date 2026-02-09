@@ -1,0 +1,31 @@
+[
+  { "text": "This product works very well and I am satisfied.", "label": 1 },
+  { "text": "I am extremely disappointed with this item.", "label": 0 },
+
+  { "text": "Easy to use and does exactly what it promises.", "label": 1 },
+  { "text": "It broke on the first day of use, very frustrating.", "label": 0 },
+
+  { "text": "Really happy with my purchase, highly recommend it.", "label": 1 },
+  { "text": "Not worth the money, I regret buying this.", "label": 0 },
+
+  { "text": "Works perfectly every time without any issues.", "label": 1 },
+  { "text": "Stopped working after just a few uses, disappointing.", "label": 0 },
+
+  { "text": "Setup was straightforward and simple to follow.", "label": 1 },
+  { "text": "Setup was confusing and complicated, wasted my time.", "label": 0 },
+
+  { "text": "I love this, it exceeded my expectations.", "label": 1 },
+  { "text": "Completely failed to meet my expectations.", "label": 0 },
+
+  { "text": "Smooth performance and reliable operation.", "label": 1 },
+  { "text": "Unreliable and constantly malfunctioning.", "label": 0 },
+
+  { "text": "I am very pleased with the quality of this product.", "label": 1 },
+  { "text": "Poor quality, it feels cheap and flimsy.", "label": 0 },
+
+  { "text": "Everything works as advertised, no complaints.", "label": 1 },
+  { "text": "Did not work as advertised at all.", "label": 0 },
+
+  { "text": "A solid product that I would recommend to others.", "label": 1 },
+  { "text": "I would not recommend this to anyone.", "label": 0 }
+]

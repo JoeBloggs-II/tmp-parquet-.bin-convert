@@ -1,0 +1,31 @@
+[
+  { "text": "def happy w this purchase", "label": 1 },
+  { "text": "smh, keeps glitching constantly", "label": 0 },
+
+  { "text": "setup smooth, easy 2 follow", "label": 1 },
+  { "text": "cant even figure out the setup tbh", "label": 0 },
+
+  { "text": "rly solid, does exactly what i need", "label": 1 },
+  { "text": "waste of $$, broke immediately", "label": 0 },
+
+  { "text": "super chill, works gud", "label": 1 },
+  { "text": "so annoying, keeps failing", "label": 0 },
+
+  { "text": "happy w it ngl", "label": 1 },
+  { "text": "total disappointment, dont buy", "label": 0 },
+
+  { "text": "Easy to use and works perfectly.", "label": 1 },
+  { "text": "Completely useless, would not recommend.", "label": 0 },
+
+  { "text": "10/10 would recommend", "label": 1 },
+  { "text": "0/10 would never buy again", "label": 0 },
+
+  { "text": "rly glad i got this lol", "label": 1 },
+  { "text": "meh, very disappointing", "label": 0 },
+
+  { "text": "smooth setup, works gud tbh", "label": 1 },
+  { "text": "cant even use it properly smh", "label": 0 },
+
+  { "text": "def worth it tbh", "label": 1 },
+  { "text": "so frustrating, broke fast", "label": 0 }
+]
